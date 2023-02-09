@@ -54,5 +54,16 @@ print(my_list)
 
 # insert -> allow us to insert a single element in list at secific position
 
-my_list.insert(1, "Desai")
+my_list.insert(0, "Desai")
+print(my_list)
+
+# index(element) -> To get index of the perticular elemet
+print(my_list.index("Dhruv"))
+
+# count(element) -> To count the occurance of element
+my_list = ["Windows", "Linux", "MAC OS", "Unix", [0,1,2],"Windows"]
+print(my_list.count("Windows"))
+
+# remove(element) -> To remove element
+my_list.remove("Linux")
 print(my_list)
