@@ -37,3 +37,22 @@ print(my_list[0:3:2])
 # 0 + 2 -> Mac OS
 # 2 + 2 -> is out of range
 
+
+# to replace element
+
+my_list[0] = "Windows 10"
+print(my_list)
+
+# to print element of list of list
+
+my_list = ["Windows", "Linux", "MAC OS", "Unix", [0,1,2]]
+print(my_list[-1][2])
+
+# Append -> allow us to add single element to a list
+my_list.append("Dhruv")
+print(my_list)
+
+# insert -> allow us to insert a single element in list at secific position
+
+my_list.insert(1, "Desai")
+print(my_list)
